@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D1F776A42D413CB70014FA2C /* DemoTCA in Resources */ = {isa = PBXBuildFile; fileRef = D1F776A32D413CB70014FA2C /* DemoTCA */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D1F776872D413ABA0014FA2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,12 +31,13 @@
 		D1F776762D413AB80014FA2C /* DemoTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F776862D413ABA0014FA2C /* DemoTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F776902D413ABA0014FA2C /* DemoTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F776A32D413CB70014FA2C /* DemoTCA */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DemoTCA; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D1F776782D413AB80014FA2C /* DemoTCA */ = {
+		D1F776782D413AB80014FA2C /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DemoTCA;
+			path = App;
 			sourceTree = "<group>";
 		};
 		D1F776892D413ABA0014FA2C /* DemoTCATests */ = {
@@ -75,7 +80,8 @@
 		D1F7766D2D413AB80014FA2C = {
 			isa = PBXGroup;
 			children = (
-				D1F776782D413AB80014FA2C /* DemoTCA */,
+				D1F776A32D413CB70014FA2C /* DemoTCA */,
+				D1F776782D413AB80014FA2C /* App */,
 				D1F776892D413ABA0014FA2C /* DemoTCATests */,
 				D1F776932D413ABA0014FA2C /* DemoTCAUITests */,
 				D1F776772D413AB80014FA2C /* Products */,
@@ -108,7 +114,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D1F776782D413AB80014FA2C /* DemoTCA */,
+				D1F776782D413AB80014FA2C /* App */,
 			);
 			name = DemoTCA;
 			packageProductDependencies = (
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1F776A42D413CB70014FA2C /* DemoTCA in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DemoTCA/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -423,7 +430,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DemoTCA/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
