@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D1F776A42D413CB70014FA2C /* DemoTCA in Resources */ = {isa = PBXBuildFile; fileRef = D1F776A32D413CB70014FA2C /* DemoTCA */; };
+		D1C760FC2D43DD8500DEE1AE /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = D1C760FB2D43DD8500DEE1AE /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +31,6 @@
 		D1F776762D413AB80014FA2C /* DemoTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F776862D413ABA0014FA2C /* DemoTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1F776902D413ABA0014FA2C /* DemoTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D1F776A32D413CB70014FA2C /* DemoTCA */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = DemoTCA; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1C760FC2D43DD8500DEE1AE /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +80,6 @@
 		D1F7766D2D413AB80014FA2C = {
 			isa = PBXGroup;
 			children = (
-				D1F776A32D413CB70014FA2C /* DemoTCA */,
 				D1F776782D413AB80014FA2C /* App */,
 				D1F776892D413ABA0014FA2C /* DemoTCATests */,
 				D1F776932D413ABA0014FA2C /* DemoTCAUITests */,
@@ -118,6 +117,7 @@
 			);
 			name = DemoTCA;
 			packageProductDependencies = (
+				D1C760FB2D43DD8500DEE1AE /* ComposableArchitecture */,
 			);
 			productName = DemoTCA;
 			productReference = D1F776762D413AB80014FA2C /* DemoTCA.app */;
@@ -201,6 +201,9 @@
 			);
 			mainGroup = D1F7766D2D413AB80014FA2C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D1C760FA2D43DD8500DEE1AE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = D1F776772D413AB80014FA2C /* Products */;
 			projectDirPath = "";
@@ -218,7 +221,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1F776A42D413CB70014FA2C /* DemoTCA in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +561,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1C760FA2D43DD8500DEE1AE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D1C760FB2D43DD8500DEE1AE /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1C760FA2D43DD8500DEE1AE /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D1F7766E2D413AB80014FA2C /* Project object */;
 }
